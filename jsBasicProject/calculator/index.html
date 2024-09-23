@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h2>Basic Calculator ᝰ.ᐟ 🤔💭</h2>
+      <div class="calculator">
+        <div class="display-container">
+          <input type="text" id="display" disabled />
+          <div id="operation-history"></div>
+        </div>
+        <div class="buttons">
+          <!-- Sol kolon: Rakamlar ve parantez -->
+          <div class="left-column">
+            <button onclick="appendParenthesis('(')">(</button>
+            <button onclick="appendParenthesis(')')">)</button>
+            <button onclick="deleteLast()" class="ce">CE</button>
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendNumber(9)">9</button>
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendNumber(6)">6</button>
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendNumber(3)">3</button>
+            <button onclick="appendNumber(0)">0</button>
+            <button onclick="appendDot()">.</button>
+            <button onclick="calculateResult()" class="equal">=</button>
+          </div>
+
+          <!-- Sağ kolon: İşlemler -->
+          <div class="right-column">
+            <button onclick="clearDisplay()" class="ac">AC</button>
+            <button onclick="appendOperator('+')">+</button>
+            <button onclick="appendOperator('-')">-</button>
+            <button onclick="appendOperator('×')">×</button>
+            <button onclick="appendOperator('÷')">÷</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
