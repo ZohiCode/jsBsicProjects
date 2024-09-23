@@ -1,4 +1,4 @@
-# JS Basic Level Projects
+# JS Basic Level Projects ✨ 💡
 
 <p align="center">
    <img src="https://github.com/user-attachments/assets/10c47fad-9ab2-4b61-82de-406d2bbd4339" alt="JS Basic Level Projects" width="300" />
