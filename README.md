@@ -22,9 +22,9 @@ JS Basic Level Projects, JavaScript becerilerinizi geliştirmek için tasarlanm�
 
 ## Canlı Yayın 🔗
 
-Proje sayfalarını [GitHub Pages](https://your-github-username.github.io/) ile yayımladım. Aşağıdaki bağlantılardan projelere erişebilirsiniz:
+Proje sayfalarını [GitHub Pages](https://ZohiCode.github.io/) ile yayımladım. Aşağıdaki bağlantılardan projelere erişebilirsiniz:
 
-- [Hesap Makinesi Projesi](https://your-github-username.github.io/calculator/)
-- [To-Do List Projesi](https://your-github-username.github.io/todo-list/)
+- [Hesap Makinesi Projesi](https://ZohiCode.github.io/calculator/)
+- [To-Do List Projesi](https://ZohiCode.github.io/todo-list/)
 
 
