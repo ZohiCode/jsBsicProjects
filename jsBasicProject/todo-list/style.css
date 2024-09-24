@@ -1,34 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg, #3172f4, #001f86b9);
+    background: linear-gradient(135deg, #6995ed, #0026a5c4);
     padding: 10px;
 }
-.header{
+
+.header {
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
     margin-bottom: 20px;
 
 }
-.header h2{
+
+.header h2 {
     color: #071736;
     display: flex;
     align-items: center;
 }
 
-.todo-app h2 img{
+.todo-app h2 img {
     width: 30px;
     margin-left: 10px;
 }
 
-.todo-app{
+.todo-app {
     width: 100%;
     max-width: 540px;
     background: #fff;
@@ -38,7 +41,7 @@
 }
 
 
-.row{
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,7 +51,7 @@
     margin-bottom: 25px;
 }
 
-input{
+input {
     flex: 1;
     border: none;
     outline: none;
@@ -56,7 +59,7 @@ input{
     padding: 10px;
 }
 
-button{
+button {
     border: none;
     outline: none;
     padding: 16px 50px;
@@ -67,7 +70,7 @@ button{
     border-radius: 40px;
 }
 
-ul li{
+ul li {
     list-style: none;
     font-size: 17px;
     padding: 12px 8px 12px 50px;
@@ -76,7 +79,7 @@ ul li{
     position: relative;
 }
 
-ul li::before{
+ul li::before {
     content: '';
     position: absolute;
     height: 28px;
@@ -89,16 +92,16 @@ ul li::before{
     left: 8px;
 }
 
-ul li.checked{
+ul li.checked {
     color: #555;
     text-decoration: line-through;
 }
 
-ul li.checked::before{
+ul li.checked::before {
     background-image: url(assets/checked.png);
 }
 
-ul li span{
+ul li span {
     position: absolute;
     right: 0;
     top: 5px;
@@ -111,10 +114,21 @@ ul li span{
     border-radius: 50%;
 }
 
-ul li span:hover{
+ul li span:hover {
     background: #edeef0;
 
 }
 
+@media screen and (max-width: 600px) {
 
-
+    .header h5{
+        font-size: 12px;
+    }
+    .header h2 {
+        font-size: 16px;
+    }
+    .row > button {
+        padding: 15px 40px;
+    }
+    
+}
