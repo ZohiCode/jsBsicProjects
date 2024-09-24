@@ -10,13 +10,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #3172f4, #001f86b9);
+  background: linear-gradient(135deg, #6995ed, #0026a5c4);
   margin: 0;
 }
 
 h2 {
   text-align: center;
-  color: #071736;;
+  color: #071736;
+  ;
   margin-bottom: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -68,7 +69,8 @@ h2 {
   grid-gap: 10px;
 }
 
-.right-column, .bottom-row {
+.right-column,
+.bottom-row {
   display: flex;
   flex-direction: column;
   grid-gap: 10px;
@@ -94,15 +96,15 @@ button:active {
 }
 
 .right-column button {
-  background-color: #527ef9;
+  background-color: #467dea;
   color: white;
 }
 
 .right-column button:hover {
-  background-color: #3269ff;
+  background-color: #467dea;
 }
 
- button.ce {
+button.ce {
   background-color: #fb766a;
   color: white;
 }
